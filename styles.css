@@ -34,7 +34,7 @@ p:nth-of-type(3){
 }
 
 /* Style for the last paragraph */
-p:last-child {
+p:last-of-type {
     color: red;
 }
 
