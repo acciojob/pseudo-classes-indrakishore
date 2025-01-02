@@ -2,6 +2,8 @@
 /* Set background color for the entire page using :root pseudo-class */
 :root {
     background-color: rgb(135, 206, 235);
+	margin:0px;
+	padding:0px;
 }
 
 #fp{
