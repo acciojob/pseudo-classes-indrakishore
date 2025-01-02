@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+/* Set background color for the entire page using :root pseudo-class */
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+/* Style for the first paragraph */
+p:first-child {
+    color: white;
+    background-color: black;
+}
+
+/* Style for the second paragraph (standard text color) */
+p:nth-child(2) {
+    color: black;
+}
+
+p:nth-child(3){
+    color: red;
+}
+
+/* Style for the last paragraph */
+p:last-child {
+    color: red;
+}
+
+/* Style for the unordered list items */
+ul {
+    list-style: disc;
+    padding: 20px;
+}
+
+ul li {
+    width: 50%;
+    padding: 10px;
+    background-color: gray;
+}
+
+/* Style for odd list items (using nth-child odd) */
+ul li:nth-child(odd) {
+    background-color: white;
+}
+
+/* Font size for the first and last list items */
+ul li:first-child, ul li:last-child {
+    font-size: 22px;
+}
+
+/* Pink background for the third-to-last list item */
+ul li:nth-last-child(3) {
+    background-color: pink;
+}
