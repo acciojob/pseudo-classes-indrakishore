@@ -4,6 +4,20 @@
     background-color: rgb(135, 206, 235);
 }
 
+#fp{
+	background-color:black;
+	color:white
+}
+
+#sp{
+	color:black
+}
+
+#thirdp{
+	color:red;
+}
+
+
 /* Style for the first paragraph */
 p:first-child {
     color: white;
