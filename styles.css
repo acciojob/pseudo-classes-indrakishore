@@ -1,10 +1,11 @@
 /*  your css code here. If applicable */
 /* Set background color for the entire page using :root pseudo-class */
-:root {
+body {
     background-color: rgb(135, 206, 235);
 	margin:0px;
 	padding:0px;
 }
+
 
 #fp{
 	background-color:black;
